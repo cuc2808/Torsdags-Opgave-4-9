@@ -18,9 +18,9 @@ void setup(){
   println(" ");
   println("Countdown from n to 0!");
 //Countdown with n number:
-  int n = 15;
-  println("n = " + n);
-  for (int c = n; c >= 0; c = c - 1) {
+  int start = 15;
+  println("start = " + start);
+  for (int c = start; c >= 0; c = c - 1) {
 //As long as c is bigger than 3, print c.
     if (c > 3) { 
       println(c);
